@@ -1,0 +1,31 @@
+/* タイピングゲーム全体のスタイル */
+body {
+    font-size: 6em; 
+    text-align: center;
+  }
+  
+  /* ゲームのカウント表示のスタイル */
+  .count {
+    margin: 0;
+    font-weight: bold;
+    color: #888;
+  }
+  
+  /* テキスト表示部分のスタイル */
+  .wrap {
+    margin-top: 20px;
+    padding: 80px 40px;
+    background-color: #666;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* 正しくタイピングされた場合のテキスト */
+  .typed {
+    color: lightgreen;
+  }
+  
+  /* ミスタイプの場合の背景色 */
+  .mistyped {
+    background-color: red;
+  }
